@@ -25,12 +25,13 @@
         </ComboBox>
         <GroupBox Header="Generowanie hasła" Margin="296,104,66,104" Grid.Column="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="337,146,0,0" TextWrapping="Wrap" Text="Ile znaków?" VerticalAlignment="Top" FontSize="15" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="452,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="18"/>
+        <TextBox x:Name="znak" HorizontalAlignment="Left" Margin="452,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="18"/>
         <CheckBox Grid.Column="1" Content="Cyfry" HorizontalAlignment="Left" Margin="315,223,0,0" VerticalAlignment="Top"/>
         <CheckBox Grid.Column="1" Content="Małe i wielkie litery" HorizontalAlignment="Left" Margin="315,185,0,0" VerticalAlignment="Top"/>
         <CheckBox Grid.Column="1" Content="Znaki specjalne" HorizontalAlignment="Left" Margin="315,262,0,0" VerticalAlignment="Top"/>
         <Button x:Name="haslo" Grid.Column="1" Content="Generuj hasło" HorizontalAlignment="Left" Margin="406,282,0,0" VerticalAlignment="Top" Width="92" Height="24" Background="SteelBlue" BorderBrush="White" Foreground="White" Click="Button_Click"/>
         <Button x:Name="bet" Grid.Column="1" Content="Zatwierdź" HorizontalAlignment="Left" Margin="175,370,0,0" VerticalAlignment="Top" Width="163" Height="35" Background="SteelBlue" BorderBrush="White" Foreground="White" Click="bet_Click"/>
+
 
     </Grid>
 </Window>

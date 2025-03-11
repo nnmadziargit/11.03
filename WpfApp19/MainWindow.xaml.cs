@@ -25,11 +25,12 @@ namespace WpfApp19
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string a = ("MB7Ri");
+            string a = "MB8Ri";
             haslo.IsEnabled = true;
+            MessageBox.Show( a);
 
-            MessageBox.Show(a);
-            //
+
+            
         }
 
         private void bet_Click(object sender, RoutedEventArgs e)
