@@ -25,9 +25,14 @@ namespace WpfApp19
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string a = "MB8Ri";
+            string a = "MB7Ri";
+            
+            int c;
+           Random random = new Random();
+         c = random.Next(a.Length);
             haslo.IsEnabled = true;
-            MessageBox.Show( a);
+            MessageBox.Show(a);
+
 
 
             
@@ -36,7 +41,7 @@ namespace WpfApp19
         private void bet_Click(object sender, RoutedEventArgs e)
         {
             bet.IsEnabled = true;
-            MessageBox.Show($"Dane pracownika: " + imie.Text + nazwisko.Text + stanowisko.Text);
+            MessageBox.Show("Dane pracownika: " + imie.Text + nazwisko.Text + stanowisko.Text);
         }
     }
 }
