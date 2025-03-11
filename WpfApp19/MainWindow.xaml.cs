@@ -29,7 +29,7 @@ namespace WpfApp19
             haslo.IsEnabled = true;
 
             MessageBox.Show(a);
-
+            //
         }
 
         private void bet_Click(object sender, RoutedEventArgs e)
